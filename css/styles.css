@@ -62,11 +62,9 @@ button {
   --gray-color: #434455;
 }
 
-/* COMPONENTS */
 .secondary-title {
   font-size: 36px;
   line-height: 1.11;
-  /* identical to box height, or 111% */
 
   text-align: center;
   letter-spacing: 0.02em;
@@ -108,11 +106,8 @@ button {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  /* or 150% */
 
   letter-spacing: 0.02em;
-
-  /* SLATE */
 
   color: #434455;
 }
@@ -1025,7 +1020,6 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container {
   fill: var(--small-text-dark-theme-color);
 }
 
-/* NEW MODAL INFO */
 
 .modal-navigation {
   height: 100%;
@@ -1381,11 +1375,8 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* identical to box height, or 117% */
 
     letter-spacing: 0.04em;
-
-    /* SLATE */
 
     color: #434455;
   }
@@ -1449,7 +1440,6 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container {
   }
 
 
-  /* HEADER STARTED */
   .page-header {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -1506,11 +1496,6 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container {
   }
 
 
-
-  /* HEADER ENDED */
-
-  /* HERO STARTED */
-
   .hero {
     width: 768px;
   }
@@ -1536,9 +1521,6 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container {
       url("../images/mobile/hero-backgr-laptop.jpg");
   }
 
-  /* HERO ENDED */
-
-  /* FIRST SECTION STARTED */
   .small-descr-list {
     display: flex;
     flex-wrap: wrap;
@@ -1559,9 +1541,6 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container {
     text-align: left;
   }
 
-  /* FIRST SECTION ENDED */
-
-  /* OUR TEAM SECTION STARTED */
 
   .our-team {
     padding-bottom: 96px;
@@ -1588,9 +1567,6 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container {
     text-align: center;
   }
 
-  /* OUR TEAM ENDED */
-
-  /* CUSTOMERS STARTED */
 
   .customers-item:nth-child(2n + 1) {
     margin-right: 0;
