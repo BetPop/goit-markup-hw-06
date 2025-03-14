@@ -735,6 +735,13 @@ ul.list .address-item:last-child {
 
   color: #2e2f42;
 }
+@media screen and (min-width: 768px) {
+  .modal-title {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  
+}
 .modal-label {
   font-size: 12px;
   line-height: 1.17;
