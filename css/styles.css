@@ -446,10 +446,8 @@ ul.list .address-item:last-child {
   line-height: 1.5;
   letter-spacing: 0.04em;
 
-  /* CLOUD */
 
   background: var(--small-text-dark-theme-color);
-  /* CORNFLOWER */
 
   border: 1px solid #e7e9fc;
   border-radius: 4px;
@@ -463,7 +461,7 @@ ul.list .address-item:last-child {
   background-color: var(--hover-and-focus-color);
 }
 
-/* ================= IMAGES = */
+/*  IMAGES  */
 
 .small-text-image {
   width: 264px;
@@ -1451,7 +1449,7 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container {
   }
 
 
-  /* ================HEADER STARTED================ */
+  /* HEADER STARTED */
   .page-header {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -1509,9 +1507,9 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container {
 
 
 
-  /* ================HEADER ENDED================ */
+  /* HEADER ENDED */
 
-  /* ================HERO STARTED================ */
+  /* HERO STARTED */
 
   .hero {
     width: 768px;
@@ -1538,9 +1536,9 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container {
       url("../images/mobile/hero-backgr-laptop.jpg");
   }
 
-  /* ================HERO ENDED================ */
+  /* HERO ENDED */
 
-  /* ================FIRST SECTION STARTED================ */
+  /* FIRST SECTION STARTED */
   .small-descr-list {
     display: flex;
     flex-wrap: wrap;
@@ -1561,9 +1559,9 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container {
     text-align: left;
   }
 
-  /* ================FIRST SECTION ENDED================ */
+  /* FIRST SECTION ENDED */
 
-  /* ================OUR TEAM SECTION STARTED================ */
+  /* OUR TEAM SECTION STARTED */
 
   .our-team {
     padding-bottom: 96px;
@@ -1590,9 +1588,9 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container {
     text-align: center;
   }
 
-  /* ================OUR TEAM ENDED================ */
+  /* OUR TEAM ENDED */
 
-  /* ================CUSTOMERS STARTED================ */
+  /* CUSTOMERS STARTED */
 
   .customers-item:nth-child(2n + 1) {
     margin-right: 0;
@@ -1615,9 +1613,9 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container {
     margin-left: 0;
   }
 
-  /* ================CUSTOMERS ENDED================ */
+  /* CUSTOMERS ENDED */
 
-  /* ================FOOTER STARTED================ */
+  /* FOOTER STARTED */
 
   .page-footer {
     text-align: left;
@@ -1663,7 +1661,7 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container {
     align-items: baseline;
   }
 
-  /* ================FOOTER ENDED================ */
+  /* FOOTER ENDED */
 
   .portfolio-item {
     max-width: 356px;
