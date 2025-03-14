@@ -4,7 +4,6 @@ body {
   background-color: var(--background-color);
 }
 
-/* ==================ERASING STYLES================== */
 *,
 *::before,
 *::after {
@@ -51,7 +50,7 @@ button {
   }
 }
 
-/* ==================ELEMENTS================== */
+/* ELEMENTS */
 :root {
   --small-text-color: #2e2f42;
   --background-color: #ffffff;
@@ -63,7 +62,7 @@ button {
   --gray-color: #434455;
 }
 
-/* ==================COMPONENTS================== */
+/* COMPONENTS */
 .secondary-title {
   font-size: 36px;
   line-height: 1.11;
@@ -134,7 +133,7 @@ button {
   color: var(--small-text-dark-theme-color);
 }
 
-/* ==================Header================== */
+/* Header */
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -205,7 +204,7 @@ button {
   fill: black;
 }
 
-/* ==================Hero================== */
+/* Hero */
 .hero {
   background-color: var(--small-text-color);
 }
@@ -262,7 +261,7 @@ button {
   background-color: var(--hover-and-focus-color);
 }
 
-/* ==================MAIN================== */
+/* MAIN */
 .our-team-list-item {
   max-width: 264px;
   background-color: var(--background-color);
@@ -273,7 +272,7 @@ button {
   gap: 72px;
 }
 
-/* ==================FOOTER================== */
+/* FOOTER */
 
 .page-footer {
   text-align: center;
@@ -291,7 +290,7 @@ button {
   margin-bottom: 16px;
 }
 
-/* ==================BOXING PORTFOLIO================== */
+/*  PORTFOLIO */
 .container {
   max-width: 428px;
   padding: 0 15px;
@@ -391,7 +390,7 @@ ul.list .address-item:last-child {
   padding: 32px 0;
 }
 
-/* ==================BOXING INDEX================== */
+/*  INDEX */
 .hero {
   text-align: center;
   padding-top: 112px;
@@ -437,7 +436,7 @@ ul.list .address-item:last-child {
   text-align: center;
 }
 
-/* ==================PORTFOLIO================== */
+/* PORTFOLIO */
 .navigation-button {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -464,7 +463,7 @@ ul.list .address-item:last-child {
   background-color: var(--hover-and-focus-color);
 }
 
-/* ================= IMAGES AND VERTOR =================== */
+/* ================= IMAGES = */
 
 .small-text-image {
   width: 264px;
@@ -592,7 +591,7 @@ ul.list .address-item:last-child {
   align-items: center;
 }
 
-/* ==================ANIMATION AND OVERLAYS================== */
+/* ANIMATION */
 .overlay {
   font-weight: 400px;
   font-size: 16px;
@@ -648,7 +647,7 @@ ul.list .address-item:last-child {
   height: 40px;
 }
 
-/* ========================= BACKDROP ============================== */
+/*  BACKDROP  */
 .backdrop {
   opacity: 0;
   visibility: hidden;
@@ -732,7 +731,7 @@ ul.list .address-item:last-child {
   fill: var(--background-color);
 }
 
-/* ==================MODAL INPUT================== */
+/* MODAL INPUT */
 .modal-title {
   font-weight: 500;
   font-size: 16px;
