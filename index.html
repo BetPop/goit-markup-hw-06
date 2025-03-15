@@ -149,6 +149,10 @@
           <ul class="our-team-list list">
             <li class="our-team-list-item">
               <img
+                srcset="
+                  ./images/men-with-beard.jpg   1x,
+                  ./images/men-with-beard2x.jpg 2x
+                "
                 src="./images/men-with-beard.jpg"
                 width="264"
                 alt="men with beard"
@@ -189,7 +193,12 @@
               </div>
             </li>
             <li class="our-team-list-item">
-              <img src="./images/men-happy.jpg" width="264" alt="happy men" />
+              <img
+                srcset="./images/men-happy.jpg 1x, ./images/men-happy2x.jpg 2x"
+                src="./images/men-happy.jpg"
+                width="264"
+                alt="happy men"
+              />
               <div class="name-position">
                 <h3 class="small-title">Tom Ford</h3>
                 <p class="small-descr">Frontend Developer</p>
@@ -226,7 +235,12 @@
               </div>
             </li>
             <li class="our-team-list-item">
-              <img src="./images/woman.jpg" width="264" alt="woman" />
+              <img
+                srcset="./images/woman.jpg 1x, ./images/woman2x.jpg 2x"
+                src="./images/woman.jpg"
+                width="264"
+                alt="woman"
+              />
               <div class="name-position">
                 <h3 class="small-title">Camila Garcia</h3>
                 <p class="small-descr">Marketing</p>
@@ -264,6 +278,10 @@
             </li>
             <li class="our-team-list-item">
               <img
+                srcset="
+                  ./images/men-happy-black-hair.jpg   1x,
+                  ./images/men-happy-black-hair2x.jpg 2x
+                "
                 src="./images/men-happy-black-hair.jpg"
                 width="264"
                 alt="men with black hair"
@@ -313,18 +331,37 @@
             <li class="portfolio-item">
               <div class="portfolio-img-wrapper">
                 <picture>
+                  <!-- Mobile -->
                   <source
-                    srcset="./images/mobile/banking-mobile.jpg 1x"
-                    media="(max-width: 320px)"
+                    srcset="
+                      ./images/mobile/app-1x.jpg  1x,
+                      ./images/mobile/app-@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
                   />
+
+                  <!-- Tablet -->
                   <source
-                    srcset="./images/mobile/banking-mobile.jpg 1x"
-                    media="(max-width: 768px)"
+                    srcset="
+                      ./images/tablet/app-tablet-1x.jpg  1x,
+                      ./images/tablet/app-tablet-@2x.jpg 2x
+                    "
+                    media="(max-width: 1157px)"
                   />
+
+                  <!-- Desktop -->
+                  <source
+                    srcset="
+                      ./images/desktop/app-desktop-1x.jpg 1x,
+                      ./images/desktop/app-desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <!-- Fallback image -->
                   <img
-                    src="./images/banking-app-interface-concept.jpg"
+                    src="./images/mobile/app-1x.jpg"
                     alt="Banking App Interface Concept"
-                    sizes="(max-width: 320px) 288px, (max-width: 768px) 288px, 360px"
                   />
                 </picture>
 
@@ -343,18 +380,37 @@
             <li class="portfolio-item">
               <div class="portfolio-img-wrapper">
                 <picture>
+                  <!-- Mobile -->
                   <source
-                    srcset="./images/mobile/cashless-mobile.jpg 1x"
-                    media="(max-width: 320px)"
+                    srcset="
+                      ./images/mobile/payment-1x.jpg 1x,
+                      ./images/mobile/payment@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
                   />
+
+                  <!-- Tablet -->
                   <source
-                    srcset="./images/mobile/cashless-mobile.jpg 1x"
-                    media="(max-width: 768px)"
+                    srcset="
+                      ./images/tablet/payment-tablet-1x.jpg  1x,
+                      ./images/tablet/payment-tablet-@2x.jpg 2x
+                    "
+                    media="(max-width: 1157px)"
                   />
+
+                  <!-- Desktop -->
+                  <source
+                    srcset="
+                      ./images/desktop/payment-desktop-1x.jpg 1x,
+                      ./images/desktop/payment-desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <!-- Fallback image -->
                   <img
-                    src="./images/cashless-payment.jpg"
-                    alt="Banking App Interface Concept"
-                    sizes="(max-width: 320px) 288px, (max-width: 768px) 288px, 360px"
+                    src="./images/mobile/payment-1x.jpg"
+                    alt="payment app"
                   />
                 </picture>
 
@@ -373,18 +429,38 @@
             <li class="portfolio-item">
               <div class="portfolio-img-wrapper">
                 <picture>
+                  <picture>
+                  <!-- Mobile -->
                   <source
-                    srcset="./images/mobile/meditation-mobile.jpg 1x"
-                    media="(max-width: 320px)"
+                    srcset="
+                      ./images/mobile/meditation-1x.jpg 1x,
+                      ./images/mobile/meditation-@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
                   />
+
+                  <!-- Tablet -->
                   <source
-                    srcset="./images/mobile/meditation-mobile.jpg 1x"
-                    media="(max-width: 768px)"
+                    srcset="
+                      ./images/tablet/meditation-tablet-1x.jpg  1x,
+                      ./images/tablet/meditation-tablet-@2x.jpg 2x
+                    "
+                    media="(max-width: 1157px)"
                   />
+
+                  <!-- Desktop -->
+                  <source
+                    srcset="
+                      ./images/desktop/meditation-desktop-1x.jpg 1x,
+                      ./images/desktop/meditation-desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <!-- Fallback image -->
                   <img
-                    src="./images/meditation-app.jpg"
-                    alt="Banking App Interface Concept"
-                    sizes="(max-width: 320px) 288px, (max-width: 768px) 288px, 360px"
+                    src="./images/mobile/meditation-1x.jpg"
+                    alt="Meditation app "
                   />
                 </picture>
 
@@ -403,18 +479,37 @@
             <li class="portfolio-item">
               <div class="portfolio-img-wrapper">
                 <picture>
+                  <!-- Mobile -->
                   <source
-                    srcset="./images/mobile/taxi-service-mobile.jpg 1x"
-                    media="(max-width: 320px)"
+                    srcset="
+                      ./images/mobile/taxi-1x.jpg 1x,
+                      ./images/mobile/taxi-@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
                   />
+
+                  <!-- Tablet -->
                   <source
-                    srcset="./images/mobile/taxi-service-mobile.jpg 1x"
-                    media="(max-width: 768px)"
+                    srcset="
+                      ./images/tablet/taxi-tablet-1x.jpg  1x,
+                      ./images/tablet/taxi-tablet-@2x.jpg 2x
+                    "
+                    media="(max-width: 1157px)"
                   />
+
+                  <!-- Desktop -->
+                  <source
+                    srcset="
+                      ./images/desktop/taxi-desktop-1x.jpg 1x,
+                      ./images/desktop/taxi-desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <!-- Fallback image -->
                   <img
-                    src="./images/taxi-service.jpg"
-                    alt="Banking App Interface Concept"
-                    sizes="(max-width: 320px) 288px, (max-width: 768px) 288px, 360px"
+                    src="./images/mobile/taxi-1x.jpg"
+                    alt="Taxi app"
                   />
                 </picture>
 
@@ -433,18 +528,37 @@
             <li class="portfolio-item">
               <div class="portfolio-img-wrapper">
                 <picture>
+                  <!-- Mobile -->
                   <source
-                    srcset="./images/mobile/screen-illustration-mobile.jpg 1x"
-                    media="(max-width: 320px)"
+                    srcset="
+                      ./images/mobile/screen-1x.jpg 1x,
+                      ./images/mobile/screen-@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
                   />
+
+                  <!-- Tablet -->
                   <source
-                    srcset="./images/mobile/screen-illustration-mobile.jpg 1x"
-                    media="(max-width: 768px)"
+                    srcset="
+                      ./images/tablet/screen-tablet-1x.jpg  1x,
+                      ./images/tablet/screen-tablet-@2x.jpg 2x
+                    "
+                    media="(max-width: 1157px)"
                   />
+
+                  <!-- Desktop -->
+                  <source
+                    srcset="
+                      ./images/desktop/screen-desktop-1x.jpg 1x,
+                      ./images/desktop/screen-desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <!-- Fallback image -->
                   <img
-                    src="./images/screen-illustration.jpg"
-                    alt="Banking App Interface Concept"
-                    sizes="(max-width: 320px) 288px, (max-width: 768px) 288px, 360px"
+                    src="./images/mobile/screen-1x.jpg"
+                    alt="Screen illustration concept"
                   />
                 </picture>
 
@@ -463,18 +577,37 @@
             <li class="portfolio-item">
               <div class="portfolio-img-wrapper">
                 <picture>
+                  <!-- Mobile -->
                   <source
-                    srcset="./images/mobile/online-courses-mobile.jpg 1x"
-                    media="(max-width: 320px)"
+                    srcset="
+                      ./images/mobile/girl-1x.jpg 1x,
+                      ./images/mobile/girl-@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
                   />
+
+                  <!-- Tablet -->
                   <source
-                    srcset="./images/mobile/online-courses-mobile.jpg 1x"
-                    media="(max-width: 768px)"
+                    srcset="
+                      ./images/tablet/girl-tablet-1x.jpg  1x,
+                      ./images/tablet/girl-tablet@2x.jpg 2x
+                    "
+                    media="(max-width: 1157px)"
                   />
+
+                  <!-- Desktop -->
+                  <source
+                    srcset="
+                      ./images/desktop/girl-desktop-1x.jpg 1x,
+                      ./images/desktop/girl-desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <!-- Fallback image -->
                   <img
-                    src="./images/online-courses.jpg"
-                    alt="Banking App Interface Concept"
-                    sizes="(max-width: 320px) 288px, (max-width: 768px) 288px, 360px"
+                    src="./images/mobile/girl-1x.jpg"
+                    alt="Young girl looking at the phone"
                   />
                 </picture>
 
